@@ -1,8 +1,10 @@
 # Prompt Awesome 😎
 
-An awesome PS1 generator written in pure bash.
+A modular PS1 generator written in pure bash with big chunks of :sparkling_heart:
 
-PICTURE GOES HERE
+<p align="center"><img src="/demo.gif?raw=true"/></p>
+
+> Like what you see? support me with a `star` and a `follow` 😘
 
 ## Installation
 
@@ -44,5 +46,19 @@ fi
 ## Usage
 
 ``` bash
+# change theme
+prompt set-theme default
+prompt set-theme minimal
 prompt set-theme powerline
+prompt set-theme simple
+prompt set-theme vscode
+
+# change a variable
+prompt set-var user Superman
+prompt set-var host Krypton
+prompt set-var tty 99
+prompt set-var shell SuperBash!
+
+# change the tab title
+prompt set-title My Awesome Bash Session!
 ```
